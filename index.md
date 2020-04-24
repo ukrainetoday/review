@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Михаил Иванович Давыдов история происхождения его семьи</title>
 
-<p><img src="/mi.jpg" alt="" /></p>
+<p><img src="mi.jpg" alt="" /></p>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
 	
